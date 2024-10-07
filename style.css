@@ -1,0 +1,13 @@
+@import url(coluna1.css);
+@import url(coluna2.css);
+
+body {
+  margin: 0rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 70rem;
+}
